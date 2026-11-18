@@ -41,9 +41,10 @@ export function Logo({ className }: { className?: string }) {
   return (
     <span className={clsx('flex items-center gap-2 font-semibold text-slate-900', className)}>
       <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-coral-500 text-white">
-        <svg viewBox="0 0 32 32" className="h-4 w-4" aria-hidden>
+        {/* <svg viewBox="0 0 32 32" className="h-4 w-4" aria-hidden>
           <path d="M8 16.5l5 5L24 10.5" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+        </svg> */}
+        <img src="/taskflow_image.jpg" alt="logo" />
       </span>
       TaskFlow
     </span>
